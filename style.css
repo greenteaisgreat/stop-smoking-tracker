@@ -1,6 +1,5 @@
 body {
-    background-image: url("./img/no-smoking.png"); 
-    background-ima
+    background-image: url("./img/no-smoking.png");
     background-size: cover;
     font-family: "Poppins", "Noto Sans", "Oswald", sans-serif;
     font-weight: bold;
@@ -57,7 +56,7 @@ button {
 }
 
 #increment-btn {
-    background: darkred;
+    background: cornflowerblue;
 }
 
 #save-btn {
