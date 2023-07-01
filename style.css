@@ -1,6 +1,5 @@
 body {
     background-image: url("./img/no-smoking.png"); 
-    background-position-x: center;
     background-size: cover;
     font-family: "Poppins", "Noto Sans", "Oswald", sans-serif;
     font-weight: bold;
@@ -8,6 +7,12 @@ body {
     text-align: center;
 }
 
+.container {
+    background-color: antiquewhite;
+    max-width: 50%;
+    max-height: 50%;
+    margin: auto;
+}
 
 
 h1 {
