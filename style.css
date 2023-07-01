@@ -1,17 +1,14 @@
-div {
-    max-width: 400px;
-    max-height: 400px;
-}
-
 body {
     background-image: url("./img/no-smoking.png"); 
     background-position-x: center;
-    background-size: 400px;
-    background-repeat: no-repeat;
+    background-size: cover;
     font-family: "Poppins", "Noto Sans", "Oswald", sans-serif;
     font-weight: bold;
+    height: 100vh;
     text-align: center;
 }
+
+
 
 h1 {
     margin-top: 20px;
