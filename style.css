@@ -1,5 +1,6 @@
 body {
     background-image: url("./img/no-smoking.png"); 
+    background-ima
     background-size: cover;
     font-family: "Poppins", "Noto Sans", "Oswald", sans-serif;
     font-weight: bold;
@@ -9,13 +10,19 @@ body {
 
 .container {
     background-color: antiquewhite;
-    max-width: 50%;
-    max-height: 50%;
+    border: 3px solid red;
+    border-radius: 10px;
+    max-width: 60%;
+    max-height: 60%;
+    min-width: 330px;
+    min-height: 330px;
     margin: auto;
+    text-align: center;
 }
 
 
 h1 {
+    font-size: 30px;
     margin-top: 20px;
     margin-bottom: 10px;
     margin-left: 20px;
@@ -27,11 +34,11 @@ h1 {
 p {
     color: red;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 30px;
     margin-top: 0;
     margin-bottom: 20px;
     text-align: center;
@@ -39,7 +46,7 @@ h2 {
 }
 
 button {
-    border: none;
+    border: 2px solid black;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
